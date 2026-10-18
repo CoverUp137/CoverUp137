@@ -49,26 +49,25 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/CoverUp137/gh-accel">gh-accel</a>　<a href="https://github.com/CoverUp137/gh-accel/stargazers"><img src="https://img.shields.io/github/stars/CoverUp137/gh-accel?style=flat-square&label=%E2%98%85&labelColor=1F2937&color=3B82F6" alt="stars"></a></h3>
-      GitHub 加速器：Cloudflare Workers / Pages 双端部署，raw 文件、Release、clone、归档、API 全支持。<br>
-      自带中文 UI，零依赖零构建，域名白名单防滥用。
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/CoverUp137/cns">cns</a>　<a href="https://github.com/CoverUp137/cns/stargazers"><img src="https://img.shields.io/github/stars/CoverUp137/cns?style=flat-square&label=%E2%98%85&labelColor=1F2937&color=3B82F6" alt="stars"></a></h3>
+      <h3><a href="https://github.com/CoverUp137/cns">cns</a> <img src="https://img.shields.io/github/stars/CoverUp137/cns?style=flat-square&label=%E2%98%85&labelColor=1F2937&color=3B82F6" alt="stars"></h3>
       CNS / CLNC / Amy4Server 一键搭建脚本。<br>
       随身 WiFi、小主机、VPS 通用，装机第一件事就是跑它。
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/CoverUp137/ksu-patcher">ksu-patcher</a></h3>
       在 Actions 里完成「下固件 → 解包提分区 → KernelSU 修补 → 发 Release」。<br>
       本地什么都不用装，也不用把 ROM 拉回自己机器。
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/CoverUp137/rules">rules</a></h3>
       OpenClash / dae / nikki 的配置与规则合集。<br>
       还包含 F50 随身 WiFi 的 Clash 插件与控制脚本。
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/CoverUp137/qinglong-backup-v4">qinglong-backup-v4</a> <img src="https://img.shields.io/github/stars/CoverUp137/qinglong-backup-v4?style=flat-square&label=%E2%98%85&labelColor=1F2937&color=3B82F6" alt="stars"></h3>
+      青龙面板数据备份到阿里云盘：递归排除目录、本地只留最新、云端按天清理。
     </td>
   </tr>
 </table>
@@ -77,11 +76,9 @@
 
 | 项目 | 说明 | 语言 |
 | :-- | :-- | :-- |
-| **[qinglong-backup-v4](https://github.com/CoverUp137/qinglong-backup-v4)** | 青龙数据备份到阿里云盘，递归排除 + 云端按天清理 | ![Python](https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white) |
 | **[daidai-panel-aligo-backup](https://github.com/CoverUp137/daidai-panel-aligo-backup)** | 呆呆面板自动备份并上传阿里云盘 | ![Python](https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white) |
 | **[Bncr_plugin](https://github.com/CoverUp137/Bncr_plugin)** | BNCR 插件合集（随缘更新） | ![JavaScript](https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **[network_panel](https://github.com/CoverUp137/network_panel)** | 纯原生 JS 的网速 / 多地 IP / 延迟检测面板 | ![CSS](https://img.shields.io/badge/-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **[venera-configs](https://github.com/CoverUp137/venera-configs)** | Venera / EZVenera 自用漫画源合集 | ![JavaScript](https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
 ## 📊 数据
 
