@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-label="windyday">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.55" stop-color="#0F1A33"/>
+      <stop offset="1" stop-color="#1B1233"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#3B82F6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#60A5FA" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#A855F7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <circle cx="985" cy="10" r="300" fill="url(#glowA)"/>
+  <circle cx="1160" cy="300" r="260" fill="url(#glowB)"/>
+  <rect x="0" y="316" width="1200" height="2" fill="url(#line)"/>
+
+  <rect x="62" y="72" width="150" height="32" rx="16" fill="#3B82F6" fill-opacity="0.14" stroke="#60A5FA" stroke-opacity="0.45"/>
+  <text x="80" y="93" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="13" letter-spacing="0.6" fill="#93C5FD">CoverUp137</text>
+
+  <text x="62" y="180" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="62" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">windyday</text>
+  <text x="64" y="216" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#94A3C4">自托管 · 网络加速 · 自动化 —— 把设备和脚本都调顺手</text>
+
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="13.5" fill="#A8B6D4">
+    <rect x="64" y="246" width="104" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="116" y="266" text-anchor="middle">OpenWrt</text>
+    <rect x="176" y="246" width="182" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="267" y="266" text-anchor="middle">Cloudflare Workers</text>
+    <rect x="366" y="246" width="88" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="410" y="266" text-anchor="middle">Docker</text>
+    <rect x="462" y="246" width="150" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="537" y="266" text-anchor="middle">GitHub Actions</text>
+  </g>
+
+  <rect x="690" y="58" width="450" height="204" rx="16" fill="#070D1A" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <circle cx="716" cy="80" r="5" fill="#FF5F57"/>
+  <circle cx="734" cy="80" r="5" fill="#FEBC2E"/>
+  <circle cx="752" cy="80" r="5" fill="#28C840"/>
+  <text x="1118" y="85" text-anchor="end" font-family="'Segoe UI','PingFang SC',sans-serif" font-size="12" fill="#64748B">bash</text>
+  <path d="M690 98H1140" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="13.5">
+    <text x="716" y="128"><tspan fill="#5EEAD4">~ $</tspan><tspan fill="#E6EDF7"> whoami</tspan></text>
+    <text x="716" y="152" fill="#9FB3D9">windyday · 折腾党</text>
+    <text x="716" y="182"><tspan fill="#5EEAD4">~ $</tspan><tspan fill="#E6EDF7"> ls stack/</tspan></text>
+    <text x="716" y="206" fill="#8B9CC0">openwrt  cloudflare  docker  actions</text>
+    <text x="716" y="236"><tspan fill="#5EEAD4">~ $</tspan><tspan fill="#E6EDF7"> echo $MOTTO</tspan></text>
+    <text x="716" y="258" fill="#C4B5FD">能自动化的，绝不手动</text>
+  </g>
+</svg>

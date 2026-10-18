@@ -1,0 +1,41 @@
+name: 更新贡献图
+
+on:
+  schedule:
+    # 每天 UTC 19:23（北京时间 03:23）刷新一次
+    - cron: "23 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-contrib
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 生成 assets/contrib-*.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/gen-contrib.mjs
+
+      - name: 有变化才提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets)" ]; then
+            git add assets/contrib-dark.svg assets/contrib-light.svg
+            git commit -m "chore: 更新贡献图"
+            git push
+          else
+            echo "贡献图无变化，跳过提交"
+          fi
