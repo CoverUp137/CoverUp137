@@ -86,10 +86,14 @@
 ## 📊 数据
 
 <div align="center">
-  <img height="165" alt="GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=CoverUp137&show_icons=true&locale=cn&hide_border=true&bg_color=00000000&title_color=60A5FA&icon_color=60A5FA&text_color=C9D1E0&rank_icon=github#gh-dark-mode-only">
-  <img height="165" alt="GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=CoverUp137&show_icons=true&locale=cn&hide_border=true&bg_color=00000000&title_color=2563EB&icon_color=2563EB&text_color=334155&rank_icon=github#gh-light-mode-only">
-  <img height="165" alt="常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoverUp137&layout=compact&langs_count=8&locale=cn&hide_border=true&bg_color=00000000&title_color=60A5FA&text_color=C9D1E0&hide=html,css#gh-dark-mode-only">
-  <img height="165" alt="常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoverUp137&layout=compact&langs_count=8&locale=cn&hide_border=true&bg_color=00000000&title_color=2563EB&text_color=334155&hide=html,css#gh-light-mode-only">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CoverUp137&amp;show_icons=true&amp;locale=cn&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=60A5FA&amp;icon_color=60A5FA&amp;text_color=C9D1E0&amp;rank_icon=github">
+    <img height="165" alt="GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=CoverUp137&amp;show_icons=true&amp;locale=cn&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=2563EB&amp;icon_color=2563EB&amp;text_color=334155&amp;rank_icon=github">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CoverUp137&amp;layout=compact&amp;langs_count=8&amp;locale=cn&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=60A5FA&amp;text_color=C9D1E0&amp;hide=html,css">
+    <img height="165" alt="常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CoverUp137&amp;layout=compact&amp;langs_count=8&amp;locale=cn&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=2563EB&amp;text_color=334155&amp;hide=html,css">
+  </picture>
 </div>
 
 <div align="center">
